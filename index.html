@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colchones Colmar – Descanso Sin Resortes</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ───── NAVBAR ───── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <div class="logo-circle">
+          <svg viewBox="0 0 60 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="18" width="44" height="18" rx="3" fill="white"/>
+            <rect x="12" y="10" width="14" height="10" rx="2" fill="white"/>
+            <rect x="34" y="10" width="14" height="10" rx="2" fill="white"/>
+            <path d="M6 36 Q30 46 54 36" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-main">COLCHONES</span>
+          <span class="logo-sub">COLMAR</span>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#contacto" class="btn-nav">Contactar</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ───── HERO ───── -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Descanso de alta calidad</p>
+      <h1 class="hero-title">Colchones<br><em>sin resortes</em><br>que transforman<br>tu sueño</h1>
+      <p class="hero-desc">Fabricamos colchones aglutinados y productos de espuma de alta densidad. Comodidad, durabilidad y bienestar para toda tu familia.</p>
+      <div class="hero-ctas">
+        <a href="#catalogo" class="btn-primary">Ver Catálogo</a>
+        <a href="#contacto" class="btn-ghost">Solicitar Cotización</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="bed-illustration">
+        <div class="bed-frame">
+          <div class="bed-headboard"></div>
+          <div class="bed-mattress">
+            <div class="mattress-layer l1"></div>
+            <div class="mattress-layer l2"></div>
+            <div class="mattress-layer l3"></div>
+          </div>
+          <div class="bed-pillow p1"></div>
+          <div class="bed-pillow p2"></div>
+          <div class="bed-sheet"></div>
+        </div>
+        <div class="floating-badge">
+          <span class="badge-icon">✦</span>
+          <span>Sin Resortes</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Desliza</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ───── NOSOTROS ───── -->
+  <section class="nosotros" id="nosotros">
+    <div class="container">
+      <div class="nosotros-grid">
+        <div class="nosotros-text">
+          <p class="section-eyebrow">¿Quiénes somos?</p>
+          <h2 class="section-title">Una empresa familiar <em>comprometida</em> con tu descanso</h2>
+          <p>En Colchones Colmar fabricamos productos de descanso sin resortes, utilizando materiales aglutinados de alta densidad que ofrecen soporte óptimo y durabilidad superior.</p>
+          <p>Nos especializamos en colchones, bases, almohadas y accesorios para todo tipo de necesidades: desde el descanso diario hasta el uso hospitalario y hotelero.</p>
+          <div class="stats-row">
+            <div class="stat"><strong>+500</strong><span>Clientes felices</span></div>
+            <div class="stat"><strong>10+</strong><span>Años de experiencia</span></div>
+            <div class="stat"><strong>100%</strong><span>Calidad garantizada</span></div>
+          </div>
+        </div>
+        <div class="nosotros-image">
+          <div class="image-card">
+            <div class="image-decoration"></div>
+            <div class="image-main">
+              <div class="factory-icon">
+                <svg viewBox="0 0 80 80" fill="none">
+                  <rect x="10" y="40" width="60" height="30" rx="2" fill="#1a2744"/>
+                  <path d="M10 40 L10 25 L30 40" fill="#1a2744"/>
+                  <path d="M30 40 L30 25 L50 40" fill="#253560"/>
+                  <path d="M50 40 L50 25 L70 40" fill="#1a2744"/>
+                  <rect x="30" y="52" width="20" height="18" rx="1" fill="white" opacity="0.3"/>
+                  <rect x="15" y="50" width="10" height="10" rx="1" fill="white" opacity="0.3"/>
+                  <rect x="55" y="50" width="10" height="10" rx="1" fill="white" opacity="0.3"/>
+                </svg>
+              </div>
+              <p>Producción local · Materiales certificados</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── CATÁLOGO ───── -->
+  <section class="catalogo" id="catalogo">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Productos</p>
+        <h2 class="section-title">Catálogo <em>Digital</em></h2>
+        <p class="section-desc">Explora nuestra línea completa de colchones y productos de descanso sin resortes.</p>
+      </div>
+
+      <!-- Filtros -->
+      <div class="filtros">
+        <button class="filtro active" data-cat="todos">Todos</button>
+        <button class="filtro" data-cat="colchones">Colchones</button>
+        <button class="filtro" data-cat="bases">Bases</button>
+        <button class="filtro" data-cat="almohadas">Almohadas</button>
+        <button class="filtro" data-cat="accesorios">Accesorios</button>
+      </div>
+
+      <!-- Grid de productos -->
+      <div class="productos-grid" id="productosGrid">
+
+        <div class="producto-card" data-cat="colchones">
+          <div class="producto-img" style="background:linear-gradient(135deg,#1a2744,#2d4080)">
+            <div class="prod-icon">🛏️</div>
+            <span class="prod-badge">Más vendido</span>
+          </div>
+          <div class="producto-info">
+            <p class="prod-category">Colchones</p>
+            <h3>Colmar Confort Plus</h3>
+            <p class="prod-desc">Espuma de alta densidad 30 kg/m³. Ideal para uso diario. Disponible en todas las medidas estándar.</p>
+            <div class="prod-medidas">
+              <span>Sencillo</span><span>Doble</span><span>Queen</span><span>King</span>
+            </div>
+            <button class="btn-cotizar" onclick="abrirCotizacion('Colmar Confort Plus')">Cotizar</button>
+          </div>
+        </div>
+
+        <div class="producto-card" data-cat="colchones">
+          <div class="producto-img" style="background:linear-gradient(135deg,#253560,#3a5298)">
+            <div class="prod-icon">🛏️</div>
+            <span class="prod-badge nuevo">Nuevo</span>
+          </div>
+          <div class="producto-info">
+            <p class="prod-category">Colchones</p>
+            <h3>Colmar Ortopédico</h3>
+            <p class="prod-desc">Tecnología aglutinada con núcleo firme. Soporte lumbar superior. Recomendado por especialistas.</p>
+            <div class="prod-medidas">
+              <span>Sencillo</span><span>Doble</span><span>Queen</span><span>King</span>
+            </div>
+            <button class="btn-cotizar" onclick="abrirCotizacion('Colmar Ortopédico')">Cotizar</button>
+          </div>
+        </div>
+
+        <div class="producto-card" data-cat="colchones">
+          <div class="producto-img" style="background:linear-gradient(135deg,#0f1a35,#1a2744)">
+            <div class="prod-icon">🛏️</div>
+          </div>
+          <div class="producto-info">
+            <p class="prod-category">Colchones</p>
+            <h3>Colmar Premium</h3>
+            <p class="prod-desc">Espuma viscoelástica de memoria + base aglutinada. El máximo confort sin resortes.</p>
+            <div class="prod-medidas">
+              <span>Doble</span><span>Queen</span><span>King</span>
+            </div>
+            <button class="btn-cotizar" onclick="abrirCotizacion('Colmar Premium')">Cotizar</button>
+          </div>
+        </div>
+
+        <div class="producto-card" data-cat="colchones">
+          <div class="producto-img" style="background:linear-gradient(135deg,#1e3a5f,#2563a8)">
+            <div class="prod-icon">🏥</div>
+            <span class="prod-badge">Especializado</span>
+          </div>
+          <div class="producto-info">
+            <p class="prod-category">Colchones</p>
+            <h3>Colmar Clínico</h3>
+            <p class="prod-desc">Diseñado para uso hospitalario y geriátrico. Funda impermeable, núcleo firme y antiescaras.</p>
+            <div class="prod-medidas">
+              <span>Sencillo</span><span>Estándar clínico</span>
+            </div>
+            <button class="btn-cotizar" onclick="abrirCotizacion('Colmar Clínico')">Cotizar</button>
+          </div>
+        </div>
+
+        <div class="producto-card" data-cat="bases">
+          <div class="producto-img" style="background:linear-gradient(135deg,#2a1f4f,#4a3880)">
+            <div class="prod-icon">🪵</div>
+          </div>
+          <div class="producto-info">
+            <p class="prod-category">Bases</p>
+            <h3>Base Box Madera</h3>
+            <p class="prod-desc">Base en madera sólida con láminas reforzadas. Complemento ideal para nuestros colchones.</p>
+            <div class="prod-medidas">
+              <span>Sencillo</span><span>Doble</span><span>Queen</span><span>King</span>
+            </div>
+            <button class="btn-cotizar" onclick="abrirCotizacion('Base Box Madera')">Cotizar</button>
+          </div>
+        </div>
+
+        <div class="producto-card" data-cat="almohadas">
+          <div class="producto-img" style="background:linear-gradient(135deg,#1a3d2b,#2d6b4a)">
+            <div class="prod-icon">🫧</div>
+          </div>
+          <div class="producto-info">
+            <p class="prod-category">Almohadas</p>
+            <h3>Almohada Espuma Colmar</h3>
+            <p class="prod-desc">Relleno de espuma triturada aglutinada. Soporte cervical y transpirabilidad superior.</p>
+            <div class="prod-medidas">
+              <span>Estándar</span><span>King</span>
+            </div>
+            <button class="btn-cotizar" onclick="abrirCotizacion('Almohada Espuma Colmar')">Cotizar</button>
+          </div>
+        </div>
+
+        <div class="producto-card" data-cat="accesorios">
+          <div class="producto-img" style="background:linear-gradient(135deg,#3d1a1a,#803030)">
+            <div class="prod-icon">🛡️</div>
+          </div>
+          <div class="producto-info">
+            <p class="prod-category">Accesorios</p>
+            <h3>Protector Impermeable</h3>
+            <p class="prod-desc">Cubre colchón con membrana impermeable transpirable. Prolonga la vida útil de tu colchón.</p>
+            <div class="prod-medidas">
+              <span>Sencillo</span><span>Doble</span><span>Queen</span><span>King</span>
+            </div>
+            <button class="btn-cotizar" onclick="abrirCotizacion('Protector Impermeable')">Cotizar</button>
+          </div>
+        </div>
+
+        <div class="producto-card" data-cat="accesorios">
+          <div class="producto-img" style="background:linear-gradient(135deg,#1a3040,#2a5070)">
+            <div class="prod-icon">📦</div>
+            <span class="prod-badge">Empresarial</span>
+          </div>
+          <div class="producto-info">
+            <p class="prod-category">Accesorios / Espumas</p>
+            <h3>Espuma por Rollo / Plancha</h3>
+            <p class="prod-desc">Venta de espuma aglutinada al por mayor en rollos o planchas. Ideal para tapicería, industria y hoteles.</p>
+            <div class="prod-medidas">
+              <span>Medidas a pedido</span>
+            </div>
+            <button class="btn-cotizar" onclick="abrirCotizacion('Espuma por Rollo/Plancha')">Cotizar</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── BENEFICIOS ───── -->
+  <section class="beneficios" id="beneficios">
+    <div class="container">
+      <div class="section-header light">
+        <p class="section-eyebrow">¿Por qué elegirnos?</p>
+        <h2 class="section-title">Los beneficios de los<br>colchones <em>sin resortes</em></h2>
+      </div>
+      <div class="beneficios-grid">
+        <div class="beneficio-card">
+          <div class="beneficio-icon">🔇</div>
+          <h3>Silencio Total</h3>
+          <p>Sin resortes que rechinen. Muévete libremente sin despertar a tu pareja.</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">⏳</div>
+          <h3>Mayor Durabilidad</h3>
+          <p>Los resortes se doblan y rompen. Nuestra espuma aglutinada mantiene su forma por años.</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">🧘</div>
+          <h3>Soporte Uniforme</h3>
+          <p>Distribución perfecta del peso corporal. Adiós a los puntos de presión y dolores de espalda.</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">🌬️</div>
+          <h3>Transpirable</h3>
+          <p>Materiales con celdas abiertas que permiten la circulación del aire y regulan la temperatura.</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">🏥</div>
+          <h3>Uso Hospitalario</h3>
+          <p>Aptos para clínicas, geriátricos y hoteles. Fundas impermeables e hipoalergénicas disponibles.</p>
+        </div>
+        <div class="beneficio-card">
+          <div class="beneficio-icon">💰</div>
+          <h3>Precio Justo</h3>
+          <p>Fabricación propia = sin intermediarios. Calidad premium a precio de fábrica directo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── CONTACTO ───── -->
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <div class="contacto-grid">
+        <div class="contacto-info">
+          <p class="section-eyebrow">Hablemos</p>
+          <h2 class="section-title">Solicita tu <em>cotización</em> hoy</h2>
+          <p>Atendemos pedidos al por mayor y detal. Contáctanos y te asesoramos sin compromiso.</p>
+          <div class="contacto-datos">
+            <div class="dato">
+              <span class="dato-icon">📱</span>
+              <div>
+                <strong>WhatsApp</strong>
+                <a href="https://wa.me/+525630847449" target="_blank">+52 56 3084 7449</a>
+              </div>
+            </div>
+            <div class="dato">
+              <span class="dato-icon">📧</span>
+              <div>
+                <strong>Correo</strong>
+                <a href="mailto:espumacolchado@gmail.com">espumacolchado@gmail.com</a>
+              </div>
+            </div>
+            <div class="dato">
+              <span class="dato-icon">📍</span>
+              <div>
+                <strong>Pozos 2269, Buenavista, Iztapalapa, 09709 Ciudad de México, CDMX</strong>
+                <span>Ciudad De México, México</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contacto-form">
+          <form id="formContacto" onsubmit="enviarFormulario(event)">
+            <div class="form-group">
+              <label>Nombre completo</label>
+              <input type="text" id="nombre" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label>Teléfono / WhatsApp</label>
+              <input type="tel" id="telefono" placeholder="+57 300 000 0000" required />
+            </div>
+            <div class="form-group">
+              <label>Producto de interés</label>
+              <select id="producto">
+                <option value="">Selecciona un producto</option>
+                <option>Colmar Confort Plus</option>
+                <option>Colmar Ortopédico</option>
+                <option>Colmar Premium</option>
+                <option>Colmar Clínico</option>
+                <option>Base Box Madera</option>
+                <option>Almohada Espuma Colmar</option>
+                <option>Espuma por Rollo/Plancha</option>
+                <option>Otro / Varios</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Mensaje</label>
+              <textarea id="mensaje" placeholder="Cuéntanos qué necesitas..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-primary full">Enviar por WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───── FOOTER ───── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="logo-circle small">
+              <svg viewBox="0 0 60 50" fill="none">
+                <rect x="8" y="18" width="44" height="18" rx="3" fill="white"/>
+                <rect x="12" y="10" width="14" height="10" rx="2" fill="white"/>
+                <rect x="34" y="10" width="14" height="10" rx="2" fill="white"/>
+                <path d="M6 36 Q30 46 54 36" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span class="logo-main">COLCHONES</span>
+              <span class="logo-sub">COLMAR</span>
+            </div>
+          </div>
+          <p>Descanso sin resortes.<br>Calidad y bienestar para tu familia.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Productos</h4>
+          <ul>
+            <li><a href="#catalogo">Colchones</a></li>
+            <li><a href="#catalogo">Bases</a></li>
+            <li><a href="#catalogo">Almohadas</a></li>
+            <li><a href="#catalogo">Espumas al por mayor</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Colchones Colmar · Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ───── MODAL COTIZACIÓN ───── -->
+  <div class="modal-overlay" id="modalOverlay" onclick="cerrarModal()">
+    <div class="modal" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="cerrarModal()">✕</button>
+      <h3>Cotizar producto</h3>
+      <p id="modalProductoNombre"></p>
+      <p>Te redirigiremos a WhatsApp para que nuestro equipo te asesore de inmediato.</p>
+      <button class="btn-primary full" id="btnWhatsApp">Abrir WhatsApp</button>
+    </div>
+  </div>
+
+  <!-- ───── BOTÓN FLOTANTE WHATSAPP ───── -->
+  <a href="https://wa.me/525630847449" target="_blank" class="whatsapp-float" title="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
